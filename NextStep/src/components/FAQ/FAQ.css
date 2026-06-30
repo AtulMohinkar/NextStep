@@ -1,0 +1,62 @@
+.faq-container {
+  max-width: 100%;
+  padding: 20px;
+  margin-bottom: -100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* Row layout for FAQ cards */
+.faq-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap; /* important for responsiveness */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* FAQ Card */
+.faq-card {
+  background: #ffffff;
+  padding: 20px;
+
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+
+  cursor: pointer;
+
+  width: 220px; /* fixed width helps align in row */
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.faq-card:hover {
+  transform: translateY(-3px);
+}
+
+/* Heading */
+.faq-card h3 {
+  font-size: 18px;
+  color: #2563eb;
+}
+
+/* Answer */
+.faq-card p {
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Dark Mode */
+.dark-mode .faq-card {
+  background: #1f2937;
+  color: white;
+}
+
+.dark-mode .faq-card p {
+  color: #d1d5db;
+}

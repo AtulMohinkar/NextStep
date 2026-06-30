@@ -1,0 +1,152 @@
+/* =========================
+      ASSESSMENT PAGE
+========================= */
+
+.assessment-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 40px;
+  background:#f8fafc;
+}
+
+.assessment-page-title {
+  text-align: center;
+  font-size: 45px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.assessment-container > p {
+  text-align: center;
+  color: #6b7280;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Form Container */
+
+.assessment-container form {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Question Card */
+
+.assessment-question {
+  margin-bottom: 35px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.assessment-question:last-child {
+  border-bottom: none;
+}
+
+.assessment-question h3 {
+  font-size: 22px;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+/* Options */
+
+.assessment-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.assessment-option {
+  background: #f8fafc;
+  padding: 14px 18px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.assessment-option:hover {
+  background: #e0f2fe;
+}
+
+.assessment-option label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #374151;
+}
+
+.assessment-option input {
+  cursor: pointer;
+}
+
+/* Button */
+
+.assessment-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #2563eb;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.assessment-btn:hover {
+  background: #1d4ed8;
+}
+
+/* =========================
+        DARK MODE
+========================= */
+
+.dark-mode .assessment-page-title {
+  color: white;
+}
+
+.dark-mode .assessment-container form {
+  background: #1f2937;
+}
+
+.dark-mode .assessment-question h3 {
+  color: white;
+}
+
+.dark-mode .assessment-option {
+  background: #374151;
+}
+
+.dark-mode .assessment-option label {
+  color: #d1d5db;
+}
+
+.dark-mode .assessment-option:hover {
+  background: #4b5563;
+}
+
+/* =========================
+       RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .assessment-container {
+    padding: 40px 20px;
+  }
+
+  .assessment-container form {
+    padding: 25px;
+  }
+
+  .assessment-page-title {
+    font-size: 34px;
+  }
+
+  .assessment-question h3 {
+    font-size: 18px;
+  }
+}

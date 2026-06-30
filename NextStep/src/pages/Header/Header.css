@@ -1,0 +1,212 @@
+/* =========================
+        HEADER
+========================= */
+
+header {
+  width: 100%;
+
+  background: white;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 1000;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* container */
+
+.header-container {
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 18px 40px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+/* logo */
+
+.header-logo {
+  font-size: 32px;
+
+  font-weight: 800;
+
+  color: #111827;
+
+  cursor: pointer;
+}
+
+.header-logo span {
+  color: #2563eb;
+}
+
+/* =========================
+        NAVBAR
+========================= */
+
+.header-nav {
+  display: flex;
+
+  align-items: center;
+
+  gap: 25px;
+}
+
+.header-nav a {
+  text-decoration: none;
+
+  color: #374151;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.header-nav a:hover {
+  color: #2563eb;
+}
+
+.header-active {
+  color: #2563eb !important;
+}
+
+/* dark button */
+
+.header-dark-btn {
+  border: none;
+
+  background: #2563eb;
+
+  color: white;
+
+  width: 42px;
+
+  height: 38px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 18px;
+
+  transition: 0.3s;
+}
+
+.header-dark-btn:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+        HAMBURGER
+========================= */
+
+.menu-icon {
+  display: none;
+
+  font-size: 30px;
+
+  cursor: pointer;
+
+  color: #111827;
+}
+
+/* =========================
+        MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .header-container {
+    padding: 15px 20px;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .header-nav {
+    position: absolute;
+
+    top: 75px;
+
+    right: 20px;
+
+    width: 230px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    display: none;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 18px;
+
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .header-nav.show {
+    display: flex;
+  }
+
+  .header-nav a {
+    width: 100%;
+  }
+}
+
+/* =========================
+        DARK MODE
+========================= */
+
+.dark-mode header {
+  background: #111827;
+}
+
+.dark-mode .header-logo {
+  color: white;
+}
+
+.dark-mode .header-nav {
+  background: #111827;
+}
+
+.dark-mode .header-nav a {
+  color: #e5e7eb;
+}
+
+.dark-mode .header-nav a:hover {
+  color: #60a5fa;
+}
+
+.dark-mode .menu-icon {
+  color: white;
+}
+
+/* mobile dark dropdown */
+
+@media (max-width: 768px) {
+  .dark-mode .header-nav {
+    background: #1f2937;
+  }
+}
+
+.header-nav a.active {
+  color: #fff;
+  background: linear-gradient(135deg, #6c5ce7, #00cec9);
+  padding: 6px 12px;
+  border-radius: 8px;
+}

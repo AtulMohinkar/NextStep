@@ -1,0 +1,78 @@
+.app {
+  min-height: 100vh;
+  background: #f4f7fc;
+}
+
+.software-main {
+  padding: 40px 20px;
+}
+
+.software-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.software-page-title {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #1e3a8a;
+  margin-bottom: 30px;
+}
+
+.software-career-detail {
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.software-career-header {
+  text-align: center;
+}
+
+.software-career-header img {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.software-career-header h2 {
+  margin-top: 20px;
+  color: #1e40af;
+}
+
+.software-career-detail h3 {
+  margin-top: 30px;
+  color: #2563eb;
+}
+
+.software-career-detail p,
+.software-career-detail li {
+  line-height: 1.8;
+  color: #444;
+}
+
+.software-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.software-btn,
+.software-btn-secondary {
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.software-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.software-btn-secondary {
+  background: #e5e7eb;
+  color: #111;
+}

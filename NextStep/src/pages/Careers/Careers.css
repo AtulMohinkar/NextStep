@@ -1,0 +1,176 @@
+/* =========================
+        CAREERS PAGE
+========================= */
+
+.careers-container {
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 70px 40px;
+}
+
+/*Image */
+.careers-career-image {
+  width: 100%;
+
+  height: 200px;
+
+  object-fit: cover;
+
+  border-radius: 10px;
+
+  margin-bottom: 20px;
+}
+
+/* Title */
+
+.careers-page-title {
+  text-align: center;
+
+  font-size: 45px;
+
+  color: #111827;
+
+  margin-bottom: 20px;
+}
+
+.careers-container > p {
+  text-align: center;
+
+  font-size: 18px;
+
+  color: #6b7280;
+
+  margin-bottom: 50px;
+}
+
+/* Grid */
+
+.careers-career-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+/* Cards */
+
+.careers-career-card {
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 18px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.careers-career-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Card title */
+
+.careers-career-card h3 {
+  font-size: 26px;
+
+  color: #2563eb;
+
+  margin-bottom: 20px;
+}
+
+/* Text */
+
+.careers-career-card p {
+  color: #555;
+
+  line-height: 1.6;
+
+  margin-bottom: 15px;
+}
+
+.careers-career-card strong {
+  color: #111827;
+}
+
+/* Button */
+
+.careers-btn {
+  margin-top: auto;
+
+  width: max-content;
+
+  padding: 12px 22px;
+
+  background: #2563eb;
+
+  color: white;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  font-weight: 700;
+
+  transition: 0.3s;
+}
+
+.careers-btn:hover {
+  background: #1d4ed8;
+
+  transform: scale(1.05);
+}
+
+/* =========================
+        DARK MODE
+========================= */
+
+.dark-mode .careers-page-title {
+  color: white;
+}
+
+.dark-mode .careers-career-card {
+  background: #1f2937;
+
+  color: white;
+}
+
+.dark-mode .careers-career-card p {
+  color: #d1d5db;
+}
+
+.dark-mode .careers-career-card strong {
+  color: white;
+}
+
+/* =========================
+       RESPONSIVE
+========================= */
+
+@media (max-width: 950px) {
+  .careers-career-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .careers-container {
+    padding: 40px 20px;
+  }
+
+  .careers-career-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .careers-page-title {
+    font-size: 34px;
+  }
+}
