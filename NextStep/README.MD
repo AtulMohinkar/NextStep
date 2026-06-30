@@ -53,11 +53,17 @@ NextStep/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Mr-Coder-Collab/NextStep.git
+git clone https://github.com/AtulMohinkar/NextStep.git
+
+
 2. Install dependencies
 npm install
+
+
 3. Run development server
 npm run dev
+
+
 🏗️ Build for Production
 npm run build
 🌐 Deployment
@@ -68,7 +74,7 @@ Vercel
 Netlify
 👨‍💻 Author
 Name: Atul Mohinkar
-GitHub: https://github.com/Mr-Coder-Collab
+GitHub: https://github.com/AtulMohinkar/NextStep
 
 ⭐ Support
 
