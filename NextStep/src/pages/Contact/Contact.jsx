@@ -44,7 +44,7 @@ export default function Contact() {
           {/* LEFT SIDE - FORM */}
           <div className="contact-form">
             <div className="contact-info-card">
-              <h3>Send us a Message</h3>
+              <h3> 📩Send us a Message</h3>
 
               <form onSubmit={submitForm}>
                 <div className="contact-form-group">
@@ -114,25 +114,25 @@ export default function Contact() {
               <h3>Contact Information</h3>
 
               <p>
-                <strong>Address:</strong>
+                <strong>📍 Address:</strong>
                 <br />
                 123 Career Street
               </p>
 
               <p>
-                <strong>Phone:</strong>
+                <strong>📞 Phone:</strong>
                 <br />
                 (123) 456-7890
               </p>
 
               <p>
-                <strong>Email:</strong>
+                <strong>📩 Email:</strong>
                 <br />
                 info@careerguide.com
               </p>
 
               <p>
-                <strong>Hours:</strong>
+                <strong>⏱️  Hours:</strong>
                 <br />
                 Mon-Fri 9 AM - 5 PM
               </p>

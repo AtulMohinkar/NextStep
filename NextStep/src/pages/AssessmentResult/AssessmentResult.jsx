@@ -138,9 +138,9 @@ export default function AssessmentResult() {
             ))}
           </ul>
 
-          <Link className="result-btn" to={`/roadmap/${result.primary.career}`}>
+          {/* <Link className="result-btn" to={`/roadmap/${result.primary.career}`}>
             View Roadmap
-          </Link>
+          </Link> */}
         </div>
 
         {/* SECONDARY */}
@@ -158,12 +158,12 @@ export default function AssessmentResult() {
                 <li key={index}>✓ {skill}</li>
               ))}
             </ul>
-            <Link
+            {/* <Link
               className="result-btn"
               to={`/roadmap/${result.secondary.career}`}
             >
               View Roadmap
-            </Link>
+            </Link> */}
           </div>
         )}
       </div>

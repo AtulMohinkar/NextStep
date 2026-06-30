@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-container">
           <div>
-            <h4>BharatSkills</h4>
+            <h4>Our Goal</h4>
             <br />
             <p>
               Helping students discover the right career path with expert
