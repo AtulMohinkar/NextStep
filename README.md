@@ -83,9 +83,7 @@ Add screenshots here to make your README more attractive
 🗄 Backend with MongoDB
 📊 Personalized dashboards
 📱 Mobile app version
-👨‍💻 Author
-
-Atul Mohinkar
+👨‍💻 Author: Atul Mohinkar
 
 GitHub: @AtulMohinkar
 LinkedIn: https://www.linkedin.com/in/atulmohinkar/
