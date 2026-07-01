@@ -75,7 +75,7 @@ Any push to the main branch will automatically trigger deployment.
 
 📸 Screenshots
 
-![NextStep App](https://ibb.co/nq2QS0wD/image.png)
+![NextStep App](https://i.ibb.co/202cB6Fj/Screenshot-2026-07-01-122937.png)
 Add screenshots here to make your README more attractive
 
 🎯 Future Improvements
