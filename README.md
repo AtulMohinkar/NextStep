@@ -64,37 +64,49 @@ git clone https://github.com/AtulMohinkar/NextStep.git
 npm install
 3. Run the project
 npm run dev
-
 🏗 Build for Production
 npm run build
-
 🌍 Deployment
+
 This project is deployed using Vercel.
 
 Any push to the main branch will automatically trigger deployment.
 
 📸 Screenshots
-
-<p align="center">
-  <img src="https://i.ibb.co/202cB6Fj/Screenshot-2026-07-01-122937.png" width="700"/>
-</p>
-
+<p align="center"> <img src="https://i.ibb.co/202cB6Fj/Screenshot-2026-07-01-122937.png" width="700"/> </p>
 🎯 Future Improvements
 🔐 User Authentication
 🤖 AI-based career recommendations
 🗄 Backend with MongoDB
 📊 Personalized dashboards
 📱 Mobile app version
-👨‍💻 Author: Atul Mohinkar
+👨‍💻 Author
 
-GitHub: @AtulMohinkar
+Atul Mohinkar
+
+GitHub: https://github.com/AtulMohinkar
 LinkedIn: https://www.linkedin.com/in/atulmohinkar/
-
 ⭐ Show Your Support
+
 If you like this project:
 
-Give it a ⭐ on GitHub
-Share it with others
-Contribute to improvements
+⭐ Star this repo
+🔄 Share it
+🤝 Contribute
 
 💡 Built with passion to help students choose the right career path.
+
+
+---
+
+## 🚀 Final verdict
+👉 Now your project is:
+- Internship-ready  
+- Resume-ready  
+- Portfolio-ready  
+- Recruiter-friendly  
+
+---
+
+If you want next level upgrade:
+🔥 I can turn this into **“startup-grade README with badges + animations + stats + GitHub profile optimization”**
