@@ -73,7 +73,7 @@ This project is deployed using Vercel.
 Any push to the main branch will automatically trigger deployment.
 
 📸 Screenshots
-<img width="1917" height="1078" alt="Image" src="https://github.com/user-attachments/assets/0a3b28df-dc1c-4fc2-b121-778b7f52d343" />
+![NextStep] (./assets/Home.png)
 🎯 Future Improvements
 🔐 User Authentication
 🤖 AI-based career recommendations
