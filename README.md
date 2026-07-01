@@ -73,7 +73,9 @@ This project is deployed using Vercel.
 
 Any push to the main branch will automatically trigger deployment.
 
-📸 Screenshots (Optional)
+📸 Screenshots
+
+![NextStep App](https://ibb.co/nq2QS0wD/image.png)
 
 Add screenshots here to make your README more attractive
 
