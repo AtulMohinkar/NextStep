@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import favicon from "./assests/image.png";
+import favicon from "./assets/image.png";
 import Assessment from "./pages/Assessment/Assessment";
 import BussinessCareer from "./pages/Bussiness/Bussiness";
 import Careers from "./pages/Careers/Careers";
